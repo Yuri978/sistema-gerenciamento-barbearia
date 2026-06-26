@@ -3,19 +3,18 @@
 
 Sistema desktop em Java desenvolvido como projeto acadêmico para a disciplina de Programação Orientada a Objetos, aplicando herança, abstração, encapsulamento e polimorfismo na modelagem de um domínio real de negócio.
 
- Descrição
+Descrição:
 
 O SGB centraliza o cadastro de clientes, funcionários (barbeiros e gerentes), serviços oferecidos e o controle de agendamentos e atendimentos de uma barbearia. O projeto foi modelado em UML (Diagrama de Classes e Caso de Uso) e implementado em Java.
 
- Tecnologias
-
+ Tecnologias:
 
 Java (JDK 21) · Eclipse IDE
 UML
 File I/O (FileWriter/FileReader) para persistência de dados
 
 
-Estrutura de Herança
+Estrutura de Herança:
 
 Pessoa (abstrata)
 ├── Cliente
@@ -41,6 +40,6 @@ Abra o projeto no Eclipse (File → Open Projects from File System)
 Execute a classe Main.java (Run As → Java Application)
 
 
- Melhorias Futuras
+ Melhorias Futuras:
 
 Migrar a persistência de arquivos .txt para banco de dados (SQLite) com padrão DAO, e implementar interface gráfica (JavaFX).
